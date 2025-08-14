@@ -1,0 +1,20 @@
+{
+  "name": "xyz",
+  "version": "1.0.0",
+  "description": "This project is a starter template for building machine learning applications using Flask.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshGupta245/t.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshGupta245/t/issues"
+  },
+  "homepage": "https://github.com/HarshGupta245/t#readme"
+}
