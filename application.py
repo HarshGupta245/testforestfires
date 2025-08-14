@@ -1,3 +1,4 @@
+import flask
 from flask import Flask,request,jsonify,render_template
 import pickle
 import numpy as np
@@ -9,7 +10,7 @@ app = application
 
 ## Import ridge regressor and standard scaler pickle
 ridge_model = pickle.load(open('models/ridge.pkl','rb'))
-standard_scaler = pickle.load(open('models/scaler.pkl','rb'))
+standard_scaler = pickle.load(open('models/scaler.pkl','rb')) 
 
 
 @app.route("/")
